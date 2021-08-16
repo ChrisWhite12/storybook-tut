@@ -1,12 +1,11 @@
 import React from "react";
-
 import { Avatar } from "./Avatar";
 
 export default {
   title: "Design System/Avatar",
   component: Avatar,
   parameters: {
-    componentSubtitle: 'Display an image that shows the user'
+    componentSubtitle: 'Display an image that shows the user',
   }
 };
 
@@ -29,6 +28,12 @@ Sizes.args = {
   username: "Tom Coleman",
   src: "https://avatars2.githubusercontent.com/u/132554",
 };
+
+Sizes.parameters = {
+  docs: {
+    storyDescription: '4 sizes supported'
+  }
+}
 
 export const Initials = (args) => (
   <div>
